@@ -1,0 +1,42 @@
+.listItem{
+    width: 205px;
+    padding: 0 5px 15px 5px;
+    border-right: 1px solid #ACACACFF;
+    border-bottom: 1px solid #ACACACFF;
+    position: relative;
+}
+.heart{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 24px;
+    height: 24px;
+    stroke: black;
+    fill: rgba(255, 255, 255, 0);
+}
+.checked{
+    fill: black;
+}
+.productImg{
+    width: 100%;
+}
+.productName{
+    font-size: 1.5rem;
+}
+.productName, .lineThrough, .textBold, .noExist, .sale{
+    margin: 8px 0;
+}
+.lineThrough{
+    text-decoration: line-through;
+    font-size: 1.1rem;
+}
+.textBold{
+    font-weight: bold;
+}
+.noExist{
+    font-size: 1.1rem;
+}
+.sale{
+    color:red;
+    font-weight: bold;
+}
